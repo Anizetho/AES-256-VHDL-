@@ -7,27 +7,31 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/aes_256_encrypt - Behavioral C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|aes_256_encrypt.vhd/mix_column_instance - mix_column - behavioral</ClosedNode>
+         <ClosedNode>/aes_256_encrypt - Behavioral C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|aes_256_encrypt.vhd/top_key_scheduler_256_instance - top_key_scheduler_256 - behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>mix_column_instance - mix_column - behavioral (C:/Users/Anizetho/Documents/ISE/AES_256/mix_column.vhd)</SelectedItem>
+         <SelectedItem>aes_256_encrypt - Behavioral (C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/aes_256_encrypt.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000260000000020000000000000000000000000200000064ffffffff000000810000000300000002000002600000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>mix_column_instance - mix_column - behavioral (C:/Users/Anizetho/Documents/ISE/AES_256/mix_column.vhd)</CurrentItem>
+      <CurrentItem>aes_256_encrypt - Behavioral (C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/aes_256_encrypt.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" />
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000173000000010000000100000000000000000000000064ffffffff000000810000000000000001000001730000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -49,7 +53,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -66,52 +70,58 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000162000000010000000100000000000000000000000064ffffffff000000810000000000000001000001620000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/add_round_key_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|add_round_key_testbench.vhd</ClosedNode>
          <ClosedNode>/aes_256_encrypt - Behavioral C:|Users|Anizetho|Documents|ISE|AES_256|aes_256_encrypt.vhd/mix_column_instance - mix_column - behavioral</ClosedNode>
          <ClosedNode>/aes_256_encrypt - Behavioral C:|Users|Anizetho|Documents|ISE|AES_256|aes_256_encrypt.vhd/top_key_scheduler_256_instance - top_key_scheduler_256 - behavioral</ClosedNode>
+         <ClosedNode>/aes_256_encrypt_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|aes_256_encrypt_testbench.vhd</ClosedNode>
+         <ClosedNode>/aes_256_encrypt_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|aes_256_encrypt_testbench.vhd/uut - aes_256_encrypt - Behavioral</ClosedNode>
+         <ClosedNode>/key_schedule_instance_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|key_schedule_instance_testbench.vhd</ClosedNode>
+         <ClosedNode>/key_schedule_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|key_schedule_testbench.vhd</ClosedNode>
+         <ClosedNode>/mic_column_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|mic_column_testbench.vhd</ClosedNode>
+         <ClosedNode>/shift_rows_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|shift_rows_testbench.vhd</ClosedNode>
+         <ClosedNode>/sub_bytes_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|sub_bytes_testbench.vhd</ClosedNode>
+         <ClosedNode>/top_key_scheduler_256_testbench - behavior C:|Users|Anizetho|Documents|Github|AES-256_VHDL|AES_256|top_key_scheduler_256_testbench.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>sub_byte_instance - sub_byte - behavioral (C:/Users/Anizetho/Documents/ISE/AES_256/sub_byte.vhd)</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000260000000020000000000000000000000000200000064ffffffff000000810000000300000002000002600000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>sub_byte_instance - sub_byte - behavioral (C:/Users/Anizetho/Documents/ISE/AES_256/sub_byte.vhd)</CurrentItem>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000201000000020000000000000000000000000200000064ffffffff000000810000000300000002000002010000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>aes_256_encrypt_testbench - behavior (C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/aes_256_encrypt_testbench.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Regenerate All Cores</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Regenerate All Cores</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>ISim Simulator</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000173000000010000000100000000000000000000000064ffffffff000000810000000000000001000001730000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff0000000000000002000001100000008101000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

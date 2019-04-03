@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: aes_256_encrypt.prj
 
@@ -105,30 +105,30 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\aes_256_package.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\aes_256_package.vhd" into library work
 Parsing package <aes_256_package>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\mix_column_aux.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\mix_column_aux.vhd" into library work
 Parsing entity <mix_column_aux>.
 Parsing architecture <behavioral> of entity <mix_column_aux>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\key_scheduler_256.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\key_scheduler_256.vhd" into library work
 Parsing entity <key_scheduler_256>.
 Parsing architecture <behavioral> of entity <key_scheduler_256>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\top_key_scheduler_256.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\top_key_scheduler_256.vhd" into library work
 Parsing entity <top_key_scheduler_256>.
 Parsing architecture <behavioral> of entity <top_key_scheduler_256>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\sub_byte.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\sub_byte.vhd" into library work
 Parsing entity <sub_byte>.
 Parsing architecture <behavioral> of entity <sub_byte>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\shift_rows.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\shift_rows.vhd" into library work
 Parsing entity <shift_rows>.
 Parsing architecture <behavioral> of entity <shift_rows>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\mix_column.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\mix_column.vhd" into library work
 Parsing entity <mix_column>.
 Parsing architecture <behavioral> of entity <mix_column>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\add_round_key.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\add_round_key.vhd" into library work
 Parsing entity <add_round_key>.
 Parsing architecture <behavioral> of entity <add_round_key>.
-Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES_256\aes_256_encrypt.vhd" into library work
+Parsing VHDL file "C:\Users\Anizetho\Documents\ISE\AES-256\aes_256_encrypt.vhd" into library work
 Parsing entity <aes_256_encrypt>.
 Parsing architecture <Behavioral> of entity <aes_256_encrypt>.
 
@@ -151,15 +151,15 @@ Elaborating entity <mix_column_aux> (architecture <behavioral>) from library <wo
 Elaborating entity <top_key_scheduler_256> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <key_scheduler_256> (architecture <behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\Anizetho\Documents\ISE\AES_256\top_key_scheduler_256.vhd" Line 75. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\Users\Anizetho\Documents\ISE\AES_256\aes_256_encrypt.vhd" Line 230. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Anizetho\Documents\ISE\AES-256\top_key_scheduler_256.vhd" Line 75. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Anizetho\Documents\ISE\AES-256\aes_256_encrypt.vhd" Line 238. Case statement is complete. others clause is never selected
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <aes_256_encrypt>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\aes_256_encrypt.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\aes_256_encrypt.vhd".
     Found 128-bit register for signal <ciphertext>.
     Found 4-bit register for signal <count_round>.
     Found 2-bit register for signal <count_op>.
@@ -181,8 +181,8 @@ Synthesizing Unit <aes_256_encrypt>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 4-bit adder for signal <count_round[3]_GND_6_o_add_12_OUT> created at line 209.
-    Found 2-bit adder for signal <count_op[1]_GND_6_o_add_20_OUT> created at line 216.
+    Found 4-bit adder for signal <count_round[3]_GND_6_o_add_12_OUT> created at line 216.
+    Found 2-bit adder for signal <count_op[1]_GND_6_o_add_20_OUT> created at line 224.
     Found 256-bit 8-to-1 multiplexer for signal <n0068> created at line 162.
     Found 128-bit 4-to-1 multiplexer for signal <ark_in> created at line 165.
     Summary:
@@ -193,7 +193,7 @@ Synthesizing Unit <aes_256_encrypt>.
 Unit <aes_256_encrypt> synthesized.
 
 Synthesizing Unit <add_round_key>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\add_round_key.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\add_round_key.vhd".
     Found 128-bit register for signal <result>.
     Summary:
 	inferred 128 D-type flip-flop(s).
@@ -201,7 +201,7 @@ Synthesizing Unit <add_round_key>.
 Unit <add_round_key> synthesized.
 
 Synthesizing Unit <sub_byte>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\sub_byte.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\sub_byte.vhd".
     Found 128-bit register for signal <result>.
     Found 256x8-bit Read Only RAM for signal <state[127]_GND_8_o_wide_mux_0_OUT>
     Found 256x8-bit Read Only RAM for signal <state[119]_GND_8_o_wide_mux_1_OUT>
@@ -226,20 +226,20 @@ Synthesizing Unit <sub_byte>.
 Unit <sub_byte> synthesized.
 
 Synthesizing Unit <shift_rows>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\shift_rows.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\shift_rows.vhd".
     Found 128-bit register for signal <result>.
     Summary:
 	inferred 128 D-type flip-flop(s).
 Unit <shift_rows> synthesized.
 
 Synthesizing Unit <mix_column>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\mix_column.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\mix_column.vhd".
     Summary:
 	no macro.
 Unit <mix_column> synthesized.
 
 Synthesizing Unit <mix_column_aux>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\mix_column_aux.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\mix_column_aux.vhd".
     Found 32-bit register for signal <result>.
     Found 256x16-bit Read Only RAM for signal <_n0313>
     Found 256x16-bit Read Only RAM for signal <_n0570>
@@ -251,7 +251,7 @@ Synthesizing Unit <mix_column_aux>.
 Unit <mix_column_aux> synthesized.
 
 Synthesizing Unit <top_key_scheduler_256>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\top_key_scheduler_256.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\top_key_scheduler_256.vhd".
     Found 1-bit register for signal <cr_state>.
     Found 1-bit register for signal <done>.
     Found 256-bit register for signal <round_key_in>.
@@ -274,7 +274,7 @@ Synthesizing Unit <top_key_scheduler_256>.
 Unit <top_key_scheduler_256> synthesized.
 
 Synthesizing Unit <key_scheduler_256>.
-    Related source file is "C:\Users\Anizetho\Documents\ISE\AES_256\key_scheduler_256.vhd".
+    Related source file is "C:\Users\Anizetho\Documents\ISE\AES-256\key_scheduler_256.vhd".
     Found 256x8-bit Read Only RAM for signal <w7[23]_GND_13_o_wide_mux_8_OUT>
     Found 256x8-bit Read Only RAM for signal <w7[15]_GND_13_o_wide_mux_12_OUT>
     Found 256x8-bit Read Only RAM for signal <w7[7]_GND_13_o_wide_mux_14_OUT>
@@ -986,12 +986,12 @@ clk            |    7.170|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 20.38 secs
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 18.35 secs
  
 --> 
 
-Total memory usage is 4546972 kilobytes
+Total memory usage is 4545340 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

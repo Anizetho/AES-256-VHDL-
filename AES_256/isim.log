@@ -1,0 +1,67 @@
+ISim log file
+Running: C:\Users\Anizetho\Documents\Github\AES-256_VHDL\AES_256\aes_256_encrypt_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/aes_256_encrypt_testbench_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_0/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/mix_column_instance/mix_column_aux_3/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 5 ns(3), Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 5 ns(3), Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 5 ns(3), Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 5 ns(3), Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 5 ns(3), Instance /aes_256_encrypt_testbench/uut/top_key_scheduler_256_instance/key_scheduler_256_instance/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Time resolution is 1 fs
+# onerror resume
+# wave add /
+No active Database
+# run 1000 ns
+Unable to execute live simulation command.

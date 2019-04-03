@@ -122,7 +122,7 @@ begin
 	add_round_key_instance : add_round_key port map(
 			clock => clk,
 			reset => rst,
-			en => en_block(3),
+			en => en_block(3),	-- 3 => "1000"
 			round_key => round_key,
 			state => ark_in,			
 			result => ark_sbox);
@@ -130,21 +130,21 @@ begin
 	sub_byte_instance : sub_byte port map (
 			clock => clk,
 			reset => rst,
-			en => en_block(2),
+			en => en_block(2),	-- 2 => "0100"
 			state =>  ark_sbox,        
 			result => sbox_shift);
 		
 	shift_rows_instance : shift_rows port map (
 			clock => clk,
 			reset => rst,
-			en => en_block(1),
+			en => en_block(1),	-- 1 => "0010"
 			state => sbox_shift,      
 			result => shift_mix);
 			
 	mix_column_instance : mix_column port map (
 			clock => clk,
 			reset => rst,
-			en => en_block(0),
+			en => en_block(0),	-- 0 => "0001"
 			state => shift_mix,     
 			result => mix_out);
 			
@@ -181,6 +181,7 @@ begin
 				sel_ark_in  <= (others => '0');
 			else
 				case cstate is
+					-- Idle : rien ne se passe ! Quand start passe à 1 : Idle passe à store_rk
 					when 			IDLE 	=> 	cstate <= IDLE;
 													done <= '0';
 													sel_ark_in <= (others => '0');
@@ -190,20 +191,26 @@ begin
 														-- cstate <= MROUNDS;
 														-- en_block <= "1000";														
 													end if;													
+					
+					-- Store_rk : attend que l'opération key_schedule se termine. Dès que OK, done_schedule passe à 1 et on passe donc à Mrounds.							
 					when 		STORE_RK => cstate <= STORE_RK;
 												if done_schedule = '1' then
 													cstate <= MROUNDS;
 													en_block <= "1000";
 												end if;		
 					
+					-- Mrounds : exécute les 13 rounds de l'AES-256. Dès que fini, on passe à Lround.
 					when 		MROUNDS 	=>		cstate <= MROUNDS;
+													-- Si on a activé mixcolumn avant, on active addroundkey mtn.
 													if en_block(0) = '1' then
 														en_block <= "1000";
+													-- On passe de 1000 à 0100 à 0010 à 0001.
 													else
 														en_block <= '0' & en_block(3 downto 1);
 													end if;
 													count_op <= count_op + 1;
 													sel_ark_in <= "01";
+													-- Dès qu'on a exécuté les 4 opérations, on remet count_op à 0 (pour les recommencer).
 													if count_op = 3 then
 														count_op 	<= (others => '0');
 														count_round <= count_round + 1;
@@ -213,6 +220,7 @@ begin
 														end if;
 													end if;	
 													
+					-- Lround : exécute les 3 dernières opérations de l'AES-256.								
 					when 	LROUND 	=>			count_op <= count_op + 1;
 													if en_block(1) = '1' then
 														en_block <= "1000";

@@ -1,0 +1,29 @@
+Command line:
+   aes_256_encrypt_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  52868
+
+Tue Apr 02 22:16:23 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 4871.85 Meg
+
+ Total Signals          : 124
+ Total Nets             : 4632
+ Total Signal Drivers   : 81
+ Total Blocks           : 16
+ Total Primitive Blocks : 12
+ Total Processes        : 68
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 21451
+Total Line Count : 195
+
+ Total Simulation Time: 0.328125 sec
+
+ Current Memory Usage: 5186.42 Meg
+
+Tue Apr 02 22:20:25 2019
+
