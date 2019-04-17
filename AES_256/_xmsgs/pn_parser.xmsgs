@@ -8,31 +8,37 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/add_round_key.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/add_round_key.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/aes_256_encrypt.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/aes_256_encrypt.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/aes_256_package.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/aes_256_package.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/key_scheduler_256.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/controller_fpga_if.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/mix_column.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/key_scheduler_256.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/mix_column_aux.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/main_fpga_aes_256.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/shift_rows.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/mix_column.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/sub_byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/mix_column_aux.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/Github/AES-256_VHDL/AES_256/top_key_scheduler_256.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/shift_rows.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/sub_byte.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Anizetho/Documents/ISE/Main_FPGA/Main_FPGA/top_key_scheduler_256.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
